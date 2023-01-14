@@ -12,8 +12,7 @@ import aiofiles.os
 from config import ADMINS, BROADCAST_AS_COPY
 from database import delete_user, get_all_users, total_users_count
 from pyrogram import Client, filters
-from pyrogram.errors import (FloodWait, InputUserDeactivated, PeerIdInvalid,
-                             UserIsBlocked)
+from pyrogram.errors import (FloodWait, InputUserDeactivated, PeerIdInvalid, UserIsBlocked)
 from pyrogram.types import Message
 
 broadcast_ids = {}
